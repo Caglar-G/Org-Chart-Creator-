@@ -26,7 +26,7 @@ In addition, ecmascript module(ESM) structure is used.
         <script type="module">
             import {OrgChart} from './src/modules/OrgChart.js';
 
-            //---OPTIONS
+            //---Methods to pull json data
 
             // OPTION 1 -> import with esm module
             import Example_Data from './Example_Data.json' assert {type: 'json'};
