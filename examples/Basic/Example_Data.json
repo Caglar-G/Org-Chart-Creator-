@@ -1,0 +1,33 @@
+[
+
+     {
+        "Id":"1",
+        "Name":"A1",
+        "ParentId":null
+    },
+    {
+        "Id":"2",
+        "Name":"A2",
+        "ParentId":null
+    },
+    {
+        "Id":"3",
+        "Name":"A3",
+        "ParentId":null
+    },
+    {
+        "Id":"4",
+        "Name":"B1",
+        "ParentId":["1","2","3"]
+    },
+    {
+        "Id":"5",
+        "Name":"C1",
+        "ParentId":["4"]
+    }, 
+    {
+        "Id":"6",
+        "Name":"C2",
+        "ParentId":["4"]
+    }
+]
