@@ -141,12 +141,12 @@ In addition, ecmascript module(ESM) structure is used.
 You can pull from your own server in different ways.  
 
 ### Option 1 
-~~~json 
+~~~javascript 
 //import with esm module
 import Example_Data from './Example_Data.json' assert {type: 'json'};
 ~~~  
 ### Option 2 
-~~~json 
+~~~javascript 
 //import with fetch (http get method)      
 let response = await fetch(url);
 
